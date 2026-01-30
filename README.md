@@ -2,6 +2,8 @@
 
 # Kappa: A Method for Informational Regime Detection via Geometry and Dynamics
 
+[🇧🇷 Versão em Português aqui](README_PT.md)
+
 **Strategic Document — Current State and Future Directions**
 
 *When Complex Systems Forget How to Remain Stable*
