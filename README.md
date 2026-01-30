@@ -73,6 +73,54 @@ Collective predictability arises from scale, geometry, and statistics:
 4.  **$\Xi(t)$ — Structural Diversity:** Richness of coexisting independent paths.
 5.  **$DEF(t)$ — State–Phase Divergence:** Incoherence between the system's position and its dynamics.
 
+## Technical Interlude — Formal Structure of the Kappa Method
+
+The Kappa Method is not a metaphorical framework, nor a purely empirical heuristic. It is a regime-detection method grounded in geometry, dynamics, and structural memory. This section formalizes its core objects and operators.
+
+### 1. Time-Indexed Structural Space
+Let a complex informational system be observed through a time-indexed set of entities:
+$$\mathcal{E}_t = \{e_1, \dots, e_N\}$$
+whose interactions induce a dependency structure evolving over time. At each time $t$, we define a **metric space** $(\mathcal{E}_t, d_t)$, where distances are induced from pairwise dependencies:
+
+$$d_{ij}(t) = \sqrt{2(1 - C_{ij}(t))}$$
+
+with $C^{(t)}$ denoting the stabilized dependency matrix (Spearman correlation with Ledoit–Wolf shrinkage). This construction defines a trajectory of metric spaces rather than a static geometry; structural evolution is therefore modeled as **motion in a space of spaces**.
+
+
+
+### 2. Structural State Vector
+The structural state of the system at time $t$ is defined as the vector:
+$$S(t) = (Oh(t), \Phi(t), \eta(t), \Xi(t), DEF(t)) \in \mathbb{R}^5$$
+where each component captures an independent but coupled structural property. $S(t)$ is a projection of geometric and dynamical properties onto a **low-dimensional regime space**.
+
+### 3. Structural Memory as a Dissipative Operator
+Structural memory $\Phi(t)$ is defined as a causal, non-Markovian operator:
+$$\Phi_t = \gamma \Phi_{t-1} + \max(0, Oh_t - Oh_{\text{pre}}), \quad \gamma \in (0,1)$$
+
+This operator introduces **path dependence**, **dissipation**, and **structural irreversibility**. As a consequence, regime transitions exhibit **hysteresis**: the path from healthy to critical regimes differs from the path required for recovery.
+
+### 4. State–Phase Divergence (DEF)
+Let $x(t)$ denote the instantaneous structural state and $\dot{x}(t)$ its induced dynamical direction. The **State–Phase Divergence** is defined as:
+$$DEF(t) = \|x(t) - \mathcal{P}(\dot{x}(t))\|$$
+where $\mathcal{P}$ projects dynamical tendencies onto the structural state space. High $DEF$ indicates a loss of coherence between where the system is and how it is evolving, often preceding observable failures.
+
+### 5. Regime Space and Irreversibility
+Regimes (e.g., *Nagare*, *Katashi*) are defined as regions in $\mathbb{R}^5$ with fuzzy boundaries.
+
+> **Proposition (Structural Irreversibility):** There exists a critical value $\Phi^*$ such that if $\Phi(t) > \Phi^*$, the *Nagare* regime is no longer reachable via continuous perturbations of system parameters.
+
+This establishes an **arrow of time** induced by structural memory, independent of external shocks.
+
+---
+
+### Summary for Specialists
+Formally, the Kappa Method models complex systems as:
+* **Trajectories of metric spaces**;
+* With **topology-aware** observables;
+* Governed by **dissipative memory**;
+* Operating in a **low-dimensional regime space**.
+
+It detects structural regime transitions without forecasting events, focusing instead on **geometry, coherence, and irreversibility**.
 ---
 
 ## Part V — Full Mathematical Formalism
