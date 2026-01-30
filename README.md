@@ -1,6 +1,7 @@
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18434598-blue.svg)](https://doi.org/10.5281/zenodo.18434598)
-
 # Kappa: A Method for Informational Regime Detection via Geometry and Dynamics
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18434598-blue.svg)](https://doi.org/10.5281/zenodo.18434598)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [🇧🇷 Versão em Português aqui](README_PT.md)
 
