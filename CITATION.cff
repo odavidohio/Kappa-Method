@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Ferreira Ohio Junior"
     given-names: "David"
-title: "Kappa: Um Método para Detecção de Regimes Informacionais via Geometria e Dinâmica"
-version: 1.0.0
+title: "Kappa: A Method for Informational Regime Detection via Geometry and Dynamics"
+version: 1.1.0
 doi: 10.5281/zenodo.18434598
 date-released: 2026-01-30
 url: "https://github.com/odavidohio/Kappa-Method"
@@ -13,4 +13,5 @@ keywords:
   - "Complex Systems"
   - "Regime Detection"
   - "Information Theory"
+  - "Mathematical Formalism"
 abstract: "A domain-agnostic method for continuous measurement of state and phase in complex informational systems through structural observables (Oh, Phi, eta, Xi, and DEF)."
