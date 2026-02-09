@@ -9,6 +9,14 @@
 
 *When Complex Systems Forget How to Remain Stable*
 
+## 🔬 **Empirical Applications**
+
+- **Kappa-LLM / Kappa-Attention-Regimes**  
+  Empirical application of the Kappa Method to attention dynamics in large
+  language models, enabling structural hallucination detection and real-time mitigation.  
+  https://github.com/odavidohio/Kappa-Attention-Regimes
+
+
 ---
 
 ## Part I — Fundamentals
