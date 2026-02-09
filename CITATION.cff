@@ -15,3 +15,6 @@ keywords:
   - "Information Theory"
   - "Mathematical Formalism"
 abstract: "A domain-agnostic method for continuous measurement of state and phase in complex informational systems through structural observables (Oh, Phi, eta, Xi, and DEF)."
+references:
+  - title: "Kappa-LLM / Kappa-Attention-Regimes"
+    url: "https://github.com/odavidohio/Kappa-Attention-Regimes"
